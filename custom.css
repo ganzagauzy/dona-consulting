@@ -1,0 +1,231 @@
+.about .u-sheet-1 {
+    min-height: 728px;
+    
+  }
+  
+  .about .u-layout-wrap-1 {
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+  
+  .about .u-layout-cell-1 {
+    min-height: 499px;
+  }
+  
+  .about .u-container-layout-1 {
+    padding: 30px 30px 30px 0;
+  }
+  
+  .about .u-image-1 {
+    width: 449px;
+    height: 449px;
+    background-image: url("images/pexels-moose-photos-1586973.jpg");
+    background-position: 50% 50%;
+    margin: 0 auto 0 0;
+  }
+  
+  .about .u-layout-cell-2 {
+    min-height: 499px;
+  }
+  
+  .about .u-container-layout-2 {
+    padding: 30px 30px 30px 0;
+  }
+  
+  .about .u-text-1 {
+    font-weight: 700;
+    font-style: normal;
+    text-transform: none;
+    margin: 0 auto 0 0;
+  }
+  
+  .about .u-text-2 {
+    letter-spacing: 0px;
+    line-height: 2;
+    font-size: 1rem;
+    margin: 20px 0 0;
+  }
+  
+  .about .u-list-1 {
+    margin-top: 0;
+    margin-bottom: -68px;
+    margin-left: auto;
+  }
+  
+  .about .u-repeater-1 {
+    grid-template-columns: repeat(2, calc(50% - 5px));
+    min-height: 119px;
+    grid-gap: 10px;
+  }
+  
+  .about .u-container-layout-3 {
+    padding: 10px 10px 10px 0;
+  }
+  
+  .about .u-icon-1 {
+    width: 64px;
+    height: 64px;
+    background-image: none;
+    margin: 0 auto 0 0;
+    padding: 14px;
+  }
+  
+  .about .u-text-3 {
+    margin: -64px 0 0 107px;
+  }
+  
+  .about .u-container-layout-4 {
+    padding: 10px 10px 10px 0;
+  }
+  
+  .about .u-icon-2 {
+    width: 64px;
+    height: 64px;
+    background-image: none;
+    margin: 0 auto 0 0;
+    padding: 14px;
+  }
+  
+  .about .u-text-4 {
+    margin: -64px 0 0 107px;
+  }
+  
+  @media (max-width: 1199px) {
+    .about .u-sheet-1 {
+      min-height: 811px;
+    }
+  
+    .about .u-layout-wrap-1 {
+      margin-left: initial;
+    }
+  
+    .about .u-layout-cell-1 {
+      min-height: 411px;
+    }
+  
+    .about .u-image-1 {
+      width: 440px;
+      height: 440px;
+    }
+  
+    .about .u-layout-cell-2 {
+      min-height: 411px;
+    }
+  
+    .about .u-list-1 {
+      margin-bottom: -18px;
+      margin-left: initial;
+    }
+  
+    .about .u-repeater-1 {
+      min-height: 98px;
+    }
+  
+    .about .u-text-3 {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  
+    .about .u-text-4 {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .about .u-sheet-1 {
+      min-height: 851px;
+    }
+  
+    .about .u-layout-cell-1 {
+      min-height: 315px;
+    }
+  
+    .about .u-image-1 {
+      width: 330px;
+      height: 330px;
+    }
+  
+    .about .u-layout-cell-2 {
+      min-height: 100px;
+    }
+  
+    .about .u-list-1 {
+      margin-bottom: 50px;
+      margin-left: initial;
+    }
+  
+    .about .u-repeater-1 {
+      grid-template-columns: 100%;
+    }
+  
+    .about .u-container-layout-3 {
+      padding-right: 0;
+    }
+  
+    .about .u-text-3 {
+      width: auto;
+      margin-top: -51px;
+      margin-right: 32px;
+      margin-left: 98px;
+    }
+  
+    .about .u-container-layout-4 {
+      padding-right: 0;
+    }
+  
+    .about .u-text-4 {
+      width: auto;
+      margin-top: -51px;
+      margin-right: 32px;
+      margin-left: 98px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .about .u-sheet-1 {
+      min-height: 802px;
+    }
+  
+    .about .u-layout-cell-1 {
+      min-height: 397px;
+    }
+  
+    .about .u-container-layout-1 {
+      padding-right: 10px;
+    }
+  
+    .about .u-container-layout-2 {
+      padding-right: 10px;
+    }
+  
+    .about .u-text-3 {
+      margin-top: 20px;
+      margin-right: 0;
+      margin-left: 0;
+    }
+  
+    .about .u-text-4 {
+      margin-top: 20px;
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .about .u-sheet-1 {
+      min-height: 627px;
+    }
+  
+    .about .u-layout-cell-1 {
+      min-height: 250px;
+    }
+  }
+
+
+  .u-container-layout span svg {
+    margin-top: 10px !important;
+    margin-left: 10px !important;
+    font-size: 30px !important;
+  }

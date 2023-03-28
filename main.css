@@ -20507,14 +20507,24 @@ a.pswp__share--download:hover {
   flex-direction: column;
 }
 .u-tabs .u-tab-list {
-  display: flex;
-  flex-wrap: wrap;
+  grid-template-columns: repeat(4, calc(40% - 15px));
+  min-height: fit-content !important;
+  grid-gap: 30px;
   list-style: none;
   padding: 0;
   border-top: none;
   border-left: none;
   border-right: none;
   margin: 0 0 -5px;
+  border-bottom: 1px solid #0676a4;
+}
+@media (max-width: 767px) {
+  
+
+  .u-tabs .u-tab-list {
+    grid-template-columns: 100%;
+    
+  }
 }
 .u-tabs .u-tab-item {
   margin-bottom: 5px;

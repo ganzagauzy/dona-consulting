@@ -1,6 +1,7 @@
  .u-section-1 {
   background-image: url("images/-min-38.jpg");
   background-position: 50% 50%;
+  min-height: 83vh;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -17,7 +18,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
-  margin: 14px auto 43px 0;
+  margin: 104px auto 43px 0;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -3139,7 +3140,10 @@ background: #1c90a5;
 
 /* Navigation */
 /* back */
-.back  a{
+#back-to-top {
+  display: none;
+}
+#back-to-top  a{
   background: #1c90a5;
   padding: 20px;
   color: #fff;
@@ -3365,3 +3369,252 @@ background: #1c90a5;
     min-height: 314px;
   }
 }
+
+
+/* tabs */
+.tabs {
+  background-image: none;
+}
+.tabs a {
+  text-decoration: none;
+}
+.tabs .u-sheet-1 {
+  min-height: 636px;
+}
+
+.tabs .u-text-1 {
+  font-size: .9rem;
+  font-weight: 700;
+}
+
+.tabs .u-tabs-1 {
+  min-height: fit-content !important;
+  margin-top: 72px;
+  margin-bottom: 53px;
+  height: auto;
+}
+
+.tabs .u-tab-link-1 {
+  font-size: 1rem;
+  background-image: none;
+  font-weight: 600;
+  letter-spacing: 0px;
+  padding: 10px 25px;
+}
+
+.tabs .u-tab-link-2 {
+  font-size: 1rem;
+  background-image: none;
+  font-weight: 600;
+  letter-spacing: 0px;
+  padding: 10px 25px;
+}
+
+.tabs .u-tab-link-3 {
+  font-size: 1rem;
+  background-image: none;
+  font-weight: 600;
+  letter-spacing: 0px;
+  padding: 10px 25px;
+}
+.tabs ul {
+  display: flex !important;
+}
+.tabs ul li a {
+  font-size: 12px !important;
+}
+.tabs .u-tab-pane-1 {
+  background-image: none;
+}
+
+.tabs .u-container-layout-1 {
+  padding: 30px;
+  height: fit-content !important;
+}
+.tabs .u-list-item {
+  height: fit-content !important;
+}
+.tabs .u-repeater-1 {
+  grid-template-columns: repeat(3, calc(32.5% - 15px));
+  min-height: fit-content !important;
+  grid-gap: 30px;
+}
+.tabs button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: none;
+  border: 2px solid #B3B3B3 !important;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.tabs .u-text-2 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.tabs .u-text-3 {
+  line-height: 1.8;
+  font-weight: 700;
+  margin: 30px 306px 0 0;
+}
+
+.tabs .u-text-4 {
+  margin: 32px 306px 0 0;
+}
+
+.tabs .u-tab-pane-2 {
+  background-image: none;
+}
+
+.tabs .u-container-layout-2 {
+  padding: 30px;
+}
+
+.tabs .u-text-5 {
+  line-height: 1.8;
+  margin: -30px 0 -15px;
+}
+
+.tabs .u-tab-pane-3 {
+  background-image: none;
+}
+
+.tabs .u-container-layout-3 {
+  padding: 30px;
+}
+
+.tabs .u-text-6 {
+  font-weight: 700;
+  margin: 72px auto 0 0;
+}
+
+.tabs .u-text-7 {
+  margin: 20px auto 0 0;
+}
+
+.tabs .u-btn-1 {
+  border-style: none;
+  text-transform: uppercase;
+  background-image: none;
+  margin: 20px auto 0 0;
+}
+
+@media (max-width: 1199px) {
+  .tabs .u-text-2 {
+    margin-right: 0;
+  }
+
+  .tabs .u-text-3 {
+    margin-right: 106px;
+  }
+
+  .tabs .u-text-4 {
+    margin-right: 106px;
+  }
+}
+
+@media (max-width: 991px) {
+  .tabs .u-text-3 {
+    margin-right: 0;
+  }
+
+  .tabs .u-text-4 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .tabs .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tabs .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tabs .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .tabs .u-text-1 {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .tabs .u-sheet-1 {
+    min-height: 3300px;
+  }
+
+  .tabs .u-repeater-1 {
+    grid-template-columns: 100%;
+    
+  }
+
+  .tabs .u-image-1 {
+    height: 405px;
+  }
+
+  .tabs .u-text-1 {
+    font-size: 1.125rem;
+  }
+
+  .tabs .u-text-2 {
+    font-size: 1.875rem;
+  }
+
+  .tabs .u-image-2 {
+    height: 405px;
+  }
+
+  .tabs .u-text-4 {
+    font-size: 1.125rem;
+  }
+
+  .tabs .u-text-5 {
+    font-size: 1.875rem;
+  }
+
+  .tabs .u-image-3 {
+    height: 405px;
+  }
+
+  .tabs .u-text-7 {
+    font-size: 1.125rem;
+  }
+
+  .tabs .u-text-8 {
+    font-size: 1.875rem;
+  }
+
+  .tabs .u-image-4 {
+    height: 405px;
+  }
+
+  .tabs .u-text-10 {
+    font-size: 1.125rem;
+  }
+
+  .tabs .u-text-11 {
+    font-size: 1.875rem;
+  }
+
+  .tabs .u-group-1 {
+    margin-top: 20px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .tabs .u-container-layout-5 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+

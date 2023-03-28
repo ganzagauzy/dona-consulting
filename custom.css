@@ -229,3 +229,7 @@
     margin-left: 10px !important;
     font-size: 30px !important;
   }
+
+  #my-list {
+    display: none;
+  }

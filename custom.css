@@ -215,7 +215,7 @@
   
   @media (max-width: 575px) {
     .about .u-sheet-1 {
-      min-height: 627px;
+      min-height: fit-content !important;
     }
   
     .about .u-layout-cell-1 {

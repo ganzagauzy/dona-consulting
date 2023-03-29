@@ -3549,6 +3549,9 @@ iframe {
   .tabs ul {
     flex-direction: column !important;
   }
+  .tabs ul li {
+    margin-top: -30px !important;
+  }
 }
 
 @media (max-width: 767px) {

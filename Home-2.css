@@ -1,6 +1,6 @@
 .u-section-1 {
   background-image: url("images/solutions.jpg");
-  background-position: 50% 50%;
+  background-position: 50% 0% !important;
   background-size: cover;
   min-height: 83vh;
 }

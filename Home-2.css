@@ -3170,6 +3170,7 @@ iframe {
 .cont {
   min-height: 576px;
   background: #E5E5E5;
+  /* opacity: 0.6; */
 }
 
 .cont .u-layout-wrap-1 {

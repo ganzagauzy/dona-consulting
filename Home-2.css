@@ -3102,13 +3102,13 @@ iframe {
   margin-right: 30px;
 }
 .navbar a:hover {
-  color: #1c90a5;
+  color: #ffa408;
 }
 .navbar a:hover .underline {
   width: 100%;
   height: 3px;
   border-radius: 5px;
-  background: #1c90a5;
+  background: #ffa408;
   animation-name: example;
   animation-duration: 0.5s;
 }
@@ -3122,21 +3122,21 @@ iframe {
   }
 }
 .navbar a.active {
-  color: #1c90a5 !important;
+  color: #ffa408 !important;
   font-weight: bold;
 }
 .navbar a.active .underline {
   width: 70%;
   height: 3px;
   border-radius: 5px;
-  background: #1c90a5;
+  background: #ffa408;
 }
 @media screen and (max-width: 678px) {
   .navbar a.active .underline {
     width: 0px;
     height: 0px;
     border-radius: 5px;
-    background: #1c90a5;
+    background: #ffa408;
   }
 }
 
@@ -3146,7 +3146,7 @@ iframe {
   display: none;
 }
 #back-to-top a {
-  background: #1c90a5;
+  background: #ffa408;
   padding: 20px;
   color: #fff;
 

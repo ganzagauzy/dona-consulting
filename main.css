@@ -26996,7 +26996,7 @@ section.u-palette-1-base:before,
 .u-container-layout.u-container-layout.u-palette-1-base:before,
 .u-table-alt-palette-1-base tr:nth-child(even) {
   color: #ffffff;
-  background-color: #1c90a5;
+  background-color:  #ffa408;
 }
 .u-input.u-palette-1-base,
 .u-field-input.u-palette-1-base,
@@ -27931,7 +27931,7 @@ section.u-palette-3-base:before,
 .u-button-style.u-palette-3-base,
 .u-button-style.u-palette-3-base[class*="u-border-"] {
   color: #111111 !important;
-  background-color: #1c90a5 !important;
+  background-color: #ffa408 !important;
 }
 .u-button-style.u-palette-3-base:hover,
 .u-button-style.u-palette-3-base[class*="u-border-"]:hover,
@@ -32695,7 +32695,7 @@ input.u-field-input.u-field-input.u-border-active-palette-3-light-3:checked {
   stroke: #1c90a5;
 }
 .u-button-style.u-border-palette-3-base {
-  border-color: #1c90a5 !important;
+  border-color: #ffa408 !important;
   color: #1c90a5 !important;
   background-color: transparent !important;
 }

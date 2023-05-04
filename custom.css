@@ -27,6 +27,16 @@
   object-fit: cover;
 }
 
+@media screen and (max-width:600px) {
+  .top-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: fit-content;
+    padding: 0px;
+  }
+  
+}
 
 .about .u-sheet-1 {
     min-height: 728px;

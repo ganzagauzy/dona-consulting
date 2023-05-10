@@ -32,8 +32,17 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: fit-content;
+    height: 0;
     padding: 0px;
+    display: none;
+  }
+  .navbar-brand {
+    width: 100px;
+  }
+  .navbar-brand img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
   
 }
